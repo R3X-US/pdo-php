@@ -10,7 +10,8 @@ try {
 
      ]);
 } catch ( PDOException $e ){
-	echo "hata";
+	echo "error";
      print $e->getMessage();
 }
 ?>
+
